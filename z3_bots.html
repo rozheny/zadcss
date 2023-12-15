@@ -3,11 +3,48 @@
 <META charset="utf-8">
 </head>
 <body>
-<table>
+<table cellpadding="3" border="1">
 <tr>
-<td> 
+<td colspan="2"> 
 <h3> Cechy modyfikowania formatowania w: </h3> 
 </td> 
 </tr>
+<tr>
+<td> w HTML </td>
+<td> w CSS </td>
+</tr>
+<tr> 
+<td> <p> modyfikacja wyglądu elementów strony jest </p> 
+<p> bardzo żmudna (atrybuty i znaczniki które </p> 
+<p> za to odpowiadają, są porozrzucane w </p>
+<p> różnych miejscach kodu, mieszając się ze </p>
+<p> strukturą dokumentu). </p> </td> 
+<td> <p> rozdzielenie struktury i prezentacji </p>
+<p> dokumentów czyli: wszystkie polecenia </p>
+<p> dotyczące formatowania można umieścić w </p>
+<p> jednym miejscu (tzw. arkuszu) i powiązać je </p>
+<p> z konkretnymi elementami, wstawionymi za </p>
+<p> pomocą czystego (X)HTML. Taki sposób </p>
+<p> sprawia, że modyfikacja wyglądu stron może </p>
+<p> przebiegać dużo sprawniej. </p>  </td>
+</tr>
  </table>
+ <p> 
+ 
+<h1> <p> Nowe możliwości CSS </p> </h1>
+<p> <b> 1)Przestarzałe atrybuty i znaczniki </b>, znajdujące się bezpośrednio w składni HTML, które dotyczą formatowania (elementy zdeprecjonowane), będą stopniowo wycofywane przez producentów przeglądarek internetowych, na rzecz rekomendowanych analogicznych deklaracji CSS. </p>
+<p> 2)Dokumenty pisane z wykorzystaniem arkuszy stylów są zwykle bardziej <b> przejrzyste i krótsze. </b> </p>
+<p> 3)Style pozwalają w <b> łatwy sposób zarządzać </b> całą serią dokumentów, poprzez stosowanie zewnętrznych arkuszy stylów. </p>
+<p> 4) Dzięki możliwości stosowania klas selektorów, znacznie oszczędzamy sobie pisania. W <b> jednym miejscu określamy wszystkie atrybuty formatowania </b> (których może być bardzo dużo), odnoszące się do wielu elementów, które mają wyglądać tak samo. Bezpośrednio przy elemencie wystarczy podać tylko nazwę klasy i nie musimy już wypisywać dużej ilości poleceń. Znacznie przyspiesza to późniejszą modyfikację strony, ponieważ zmian dokonujemy tylko w jednym miejscu, a wpływają one na wiele elementów jednocześnie. </p>
+<p> 5)Możliwość <b> stosowania różnorodnych jednostek oraz sposobów definiowania kolorów. </b> </p>
+<p> 6)Różne wartości <b> pogrubienia czcionki </b> (9 rodzajów) </p>
+<p> <b> 7)Dodatkowe możliwości formatowania tekstu </b> </p>
+<p> <b> 8)Efektowne filtry graficzne. </b> </p>
+<p> 9)Dodatkowe możliwości <b> określenia wyglądu dokumentów podczas ich drukowania. </b> </p>
+<p> Uwaga: </p>
+<p> W ciągłym opracowaniu są <b> style poziomu trzeciego (CSS 3) </b>, które oferują jeszcze więcej rozwiązań. Aby dowiedzieć się więcej, sprawdzaj stronę organizacji W3C oraz najnowsze specyfikacje. </p> 
+<h2> <p> Wady CSS </p> </h2>
+<p> 1. złożona specyfikacja (składnia) nietolerująca, rzadnych błędów składniowych, </p>
+<p> 2. brak sygnalizacji błędów podczas wykonywania styli CSS oraz podczas ich realizacji, </p>
+<p> 3. błędne obsługiwanie CSS przez różne przeglądarki </p>
 </body>
